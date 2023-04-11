@@ -1,9 +1,30 @@
 body{
     margin: 0;
 }
-div{
+.Top_container{
     background-color: #F6F1E9;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: solid 10px;
+}
 }
 h1{
     margin: 0;
+}
+.Middle_container
+{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border: solid 20px;
+    margin-left: 260px;
+}
+.Bottom_container
+{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border: solid 10px;
+    margin-left: 500px;
 }
