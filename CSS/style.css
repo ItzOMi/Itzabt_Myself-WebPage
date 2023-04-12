@@ -1,30 +1,79 @@
 body{
     margin: 0;
+    text-align: center;
+    font-family:'Merriweather', serif;
+    
 }
 .Top_container{
     background-color: #F6F1E9;
-    height: 200px;
-    width: 200px;
-    padding: 20px;
-    border: solid 10px;
+
+    position: relative;
+    padding-top: 100px;
+    
+
 }
-}
+
 h1{
+    font-size: 3rem;
+    color: #4F4557;
+    margin-top: 0 ;
+    font-family: 'Sacramento', cursive;
+}
+h2
+{
     margin: 0;
+}
+.web {
+    text-decoration: underline;
 }
 .Middle_container
 {
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    border: solid 20px;
-    margin-left: 260px;
+    background-color: #6D5D6E;
+     
+}
+.myself
+{
+    width: 24vh;
+    border: 2px solid white;
+    border-radius: 90px;
+    padding: 3px;
 }
 .Bottom_container
 {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
-    border: solid 10px;
-    margin-left: 500px;
+    background-color: #F4EEE0;
+    
 }
+.bottom_cloud
+{
+    width: 20vh;
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top_cloud
+{
+    width: 20vh;
+    position: absolute ;
+    right: 300px;
+    top: 50px;
+    
+}
+.comp
+{
+    position: relative;
+    width: 25vh;
+    border-radius: 30vh;
+    border: 2px solid white;
+    padding: 3px;
+}
+
+.chillies
+{
+    position: relative;
+    width: 25vh;
+    border: 2px solid white;
+    border-radius: 90px;
+    padding: 3px;
+
+}
+
