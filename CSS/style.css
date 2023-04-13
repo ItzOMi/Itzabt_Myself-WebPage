@@ -2,6 +2,7 @@ body{
     margin: 0;
     text-align: center;
     font-family:'Merriweather', serif;
+    /* font-size: 1em; */
     
 }
 .Top_container{
@@ -14,13 +15,16 @@ body{
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 5rem;
+    font-style: italic;
     color: #4F4557;
     margin-top: 0 ;
     font-family: 'Sacramento', cursive;
 }
 h2
 {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.5rem;
     margin: 0;
 }
 .web {
