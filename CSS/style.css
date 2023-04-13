@@ -15,17 +15,22 @@ body{
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 4rem;
     font-style: italic;
     color: #4F4557;
-    margin-top: 0 ;
+    margin: 0px auto 0 auto ;
     font-family: 'Sacramento', cursive;
 }
 h2
 {
     font-family: 'Montserrat',sans-serif;
     font-size: 1.5rem;
-    margin: 0;
+    /* margin: 0; */
+    color: #66BFBF;
+}
+h3
+{
+    color: rgb(179, 142, 114);
 }
 .web {
     text-decoration: underline;
@@ -33,6 +38,7 @@ h2
 .Middle_container
 {
     background-color: #6D5D6E;
+    padding-top: 10vh;
      
 }
 .myself
@@ -41,9 +47,23 @@ h2
     border: 2px solid white;
     border-radius: 90px;
     padding: 3px;
+    margin-top: 5vh;
+}
+.skill-row
+{
+    width: 50%;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    line-height: 1.7;
+}
+.profile
+{
+    width: 50%;
+    margin: 0 auto 0 auto;
 }
 .Bottom_container
 {
+    margin-top: 2px;
     background-color: #F4EEE0;
     
 }
@@ -51,7 +71,7 @@ h2
 {
     width: 20vh;
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 .top_cloud
@@ -59,16 +79,19 @@ h2
     width: 20vh;
     position: absolute ;
     right: 300px;
-    top: 50px;
+    top: 30px;
+    
     
 }
 .comp
 {
+    float:left;
     position: relative;
     width: 25vh;
     border-radius: 30vh;
     border: 2px solid white;
     padding: 3px;
+    margin-right: 5vh;
 }
 
 .chillies
@@ -78,6 +101,92 @@ h2
     border: 2px solid white;
     border-radius: 90px;
     padding: 3px;
+    float: right;
+    margin-left: 5vh;
 
 }
-
+.getin
+{
+    padding-top: 4vh;
+    margin-top: 0px ;
+}
+a
+{
+    font-weight: bold;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: #000000;
+  }
+.copyright{
+    color: #731e1e;
+    font-size: 0.75rem;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+.lh
+{
+    color:#4F4557;
+}
+.info
+{
+    text-align: left;
+}
+.hw
+{
+    padding-bottom: 8vh;
+    margin-bottom:0 ;
+}
+p
+{
+    color: lightblue;
+}
+.lc
+{
+    color: #4F4557;
+    font-weight: bold;
+}
+hr{
+    border-style: none;
+    border-top-style:dotted ;
+    border-color:#F4EEE0;
+    border-width: 0.6vh;
+    width: 10vh;
+}
+.intro
+{
+ font-style: none;
+}
+.btn
+{
+    background-color: #6D5D6E;
+    color: white;
+    border-radius: 10px;
+    padding: 1vh;
+    line-height: 10vh;
+}
+.btn:hover
+{
+    background-color: #B9EDDD;
+}
+.footer-link
+{
+    background-color: #F4EEE0;
+    width: 25vh;
+    /* border: 0px solid white; */
+    border-radius: 5px;
+    padding: 5px;
+}
+.footer-link:hover
+{
+    background-color: white;
+}
+.footer
+{
+    background-color: #B9EDDD;
+    padding-top: 5vh;
+    
+}
