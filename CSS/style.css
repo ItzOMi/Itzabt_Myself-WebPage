@@ -21,10 +21,16 @@ h1{
     margin: 0px auto 0 auto ;
     font-family: 'Sacramento', cursive;
 }
+.me{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.5rem;
+    color: #66BFBF;
+}
+
 h2
 {
     font-family: 'Montserrat',sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     /* margin: 0; */
     color: #66BFBF;
 }
@@ -32,20 +38,20 @@ h3
 {
     color: rgb(179, 142, 114);
 }
-.web {
+/* .web {
     text-decoration: underline;
-}
+} */
 .Middle_container
 {
     background-color: #6D5D6E;
-    padding-top: 10vh;
+    padding-top: 5vh;
      
 }
 .myself
 {
     width: 24vh;
     border: 2px solid white;
-    border-radius: 90px;
+    border-radius: 90vh;
     padding: 3px;
     margin-top: 5vh;
 }
@@ -99,7 +105,7 @@ h3
     position: relative;
     width: 25vh;
     border: 2px solid white;
-    border-radius: 90px;
+    border-radius: 90vh;
     padding: 3px;
     float: right;
     margin-left: 5vh;
