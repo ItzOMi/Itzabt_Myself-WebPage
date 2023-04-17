@@ -214,3 +214,15 @@ hr{
     padding-top: 5vh;
     
 }
+
+@media only screen and (max-width:1280px)
+{
+    .footer
+    {
+        background-color: #000000;
+    }
+    .copyright
+    {
+        color: white;
+    }
+}
